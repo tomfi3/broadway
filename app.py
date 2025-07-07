@@ -14,7 +14,7 @@ st.set_page_config(page_title="Airly Indoor Air Quality Monitor",
                    layout="wide")
 
 # Authentication settings
-DEFAULT_PASSWORD = os.getenv("APP_PASSWORD", "merton")  # Use environment variable or fallback
+DEFAULT_PASSWORD = os.getenv("APP_PASSWORD", "mertonair")  # Use environment variable or fallback
 
 def check_password():
     """Returns True if the user has entered the correct password."""
